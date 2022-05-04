@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/oiabbreq4s8uaqx9?svg=true)](https://ci.appveyor.com/project/Zicio/layouts)
+[![Build status](https://ci.appveyor.com/api/projects/status/ufkykjeirv557v6r?svg=true)](https://ci.appveyor.com/project/Zicio/hex2rgb)
 
 [Ссылка на GP](https://zicio.github.io/hex2rgb/)
 
