@@ -2,6 +2,7 @@ import Form from "../Form/Form";
 import { useState } from "react";
 import hexColorRegex from "hex-color-regex";
 import hexToRgba from "hex-to-rgba";
+import "./App.css";
 
 function App() {
   const [form, setForm] = useState({
@@ -12,9 +13,10 @@ function App() {
   const checkValue = (value) => {
     if (hexColorRegex().test(value) && value.length === 7) {
       return hexToRgba(value);
-    } else if (value.length === 7) {
+    } else if (value.length >= 7) {
       return "Ошибка";
     }
+    return form.rgb;
   };
 
   const handleChange = (name, value) => {

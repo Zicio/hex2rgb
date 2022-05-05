@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "./Form.scss";
 
 function Form(props) {
   const { onChange, hex, rgb } = props;
@@ -17,7 +18,7 @@ function Form(props) {
         onChange={handleChange}
         value={hex}
       />
-      <span className="form__solution">{rgb}</span>
+      {rgb !== "" && <span className="form__solution">{rgb}</span>}
     </form>
   );
 }
