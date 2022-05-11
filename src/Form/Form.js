@@ -17,6 +17,7 @@ function Form(props) {
         name="hex"
         onChange={handleChange}
         value={hex}
+        placeholder="Введите hex"
       />
       {rgb !== "" && <span className="form__solution">{rgb}</span>}
     </form>
